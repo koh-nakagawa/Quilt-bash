@@ -65,6 +65,42 @@ for i in $(seq 1 10); do
 done
 ```
 
+## Example output (embedded)
+This repository contains `imgs/` and a generated mosaic `testout.png`. The embedded images below show the actual files in this working copy.
+
+### Output mosaic
+If `testout.png` exists at the repository root it will render here:
+
+![Mosaic output](testout.png)
+
+### Thumbnails of input images
+The input images used to build the mosaic are shown below.
+
+<table>
+  <tr>
+    <td><img src="imgs/1.png" alt="1" width="120"></td>
+    <td><img src="imgs/2.png" alt="2" width="120"></td>
+    <td><img src="imgs/3.png" alt="3" width="120"></td>
+    <td><img src="imgs/4.png" alt="4" width="120"></td>
+    <td><img src="imgs/5.png" alt="5" width="120"></td>
+  </tr>
+  <tr>
+    <td><img src="imgs/6.png" alt="6" width="120"></td>
+    <td><img src="imgs/7.png" alt="7" width="120"></td>
+    <td><img src="imgs/8.png" alt="8" width="120"></td>
+    <td><img src="imgs/9.png" alt="9" width="120"></td>
+    <td><img src="imgs/10.png" alt="10" width="120"></td>
+  </tr>
+</table>
+
+> To make these images visible on GitHub, commit `imgs/` and `testout.png` to the repository and push to GitHub:
+>
+> ```bash
+> git add imgs testout.png README.md
+> git commit -m "Add input images and output mosaic for README preview"
+> git push origin main
+> ```
+
 ## Troubleshooting
 * If you see a message about `convert` deprecation use `magick` instead
 * If the script reports a mismatch in image count check for hidden metadata files such as `.DS_Store` or resource fork files starting with `._`
