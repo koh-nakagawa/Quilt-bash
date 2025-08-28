@@ -74,8 +74,5 @@ done
 A simple CI workflow is included to run basic checks and a small end to end test if you use GitHub Actions. The CI uses the same commands as above to create test images and run the script.
 
 ## License
-Choose a license that fits your needs. No license is included by default.
-
-## Contact
-If you want changes such as gap between tiles, background color, explicit tile size, or a Python GUI, tell me what you prefer and I will provide a ready patch.
-
+BSD 3-Clause License
+Copyright (c) 2025, koh-nakagawa
