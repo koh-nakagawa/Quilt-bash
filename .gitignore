@@ -1,0 +1,51 @@
+# Backup files
+*.bak
+*.old
+*~ 
+*.swp
+*.swo
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+._*
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Image output and test images
+out.png
+testout.png
+test_imgs/
+imgs/test_*
+*.mosaic.png
+*.mosaic.jpg
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.log
+
+# Git config local
+.gitconfig.local
+
+# CI artifacts
+*.zip
+*.tar.gz
+artifacts/
+
+# Other common noisy files
+node_modules/
+coverage/
+
